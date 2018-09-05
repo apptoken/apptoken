@@ -1,3 +1,3 @@
-### AppToken Applications
+### AppToken
 
 [BullStamp](https://bullstamp.co)
