@@ -18,14 +18,14 @@ API respond:
 Welcome to the Apptoken API!
 ```
 
-#### All Stamps
-API call:
+### All Stamps
+#### API call:
 
 ```
 /stamps?page=1
 ```
 
-API respond:
+#### API respond:
 
 ```
 {"page_info":
@@ -73,8 +73,8 @@ API respond:
 "transaction_id":"954e453db16ee7fc74b2ce8be0ea035239c8bec04bf608d2367002b25baca6a9"}]}
 ```
 
-#### Specific Stamp
-API call:
+### Specific Stamp
+#### API call:
 
 ```
 /stamps/<stamp_id>
@@ -82,20 +82,21 @@ API call:
 /stamps/babd309692125d4222fe3b781a824e2ba4d5dd77abd6c7791ce6bcce86da3744
 ```
 
-API respond:
+#### API respond:
 
 ```
 {"author":"theapptokens",
 "content":"Lots of exciting new developments in crypto land recently...",
 "num_replies":2,
-"reply_to":null,"seq":467012198,
+"reply_to":null,
+"seq":467012198,
 "timestamp":"2018-09-25T02:09:13",
 "tips":0,
 "transaction_id":"babd309692125d4222fe3b781a824e2ba4d5dd77abd6c7791ce6bcce86da3744"}
 ```
 
-#### All Replies for a Stamp
-API call:
+### All Replies for a Stamp
+#### API call:
 
 ```
 /stamps/<stamp_id>/replies
@@ -103,7 +104,7 @@ API call:
 /stamps/babd309692125d4222fe3b781a824e2ba4d5dd77abd6c7791ce6bcce86da3744/replies
 ```
 
-API respond:
+#### API respond:
 
 ```
 {"page_info":
@@ -125,8 +126,8 @@ API respond:
 "transaction_id":"a505a08177080dc50d0799993fd6f2863f689bb6545a19cd9b4fe1bdde151bd9"}]}
 ```
 
-#### All Stamps for an Author
-API call:
+### All Stamps for an Author
+#### API call:
 
 ```
 /authors/<author>/stamps
@@ -134,7 +135,7 @@ API call:
 /authors/seyertam1234/stamps
 ```
 
-API respond:
+#### API respond:
 
 ```
 {"page_info":
@@ -157,8 +158,8 @@ API respond:
 "transaction_id":"7eb48d92e20e0eef66e75ffe93cd9ba4932e8e1ef6f0a74d8d1200fb6e261887"}]}
 ```
 
-#### Avatar of an Author
-API call:
+### Avatar of an Author
+#### API call:
 
 ```
 /authors/<author>/avatar
@@ -166,7 +167,7 @@ API call:
 /authors/theapptokens/avatar
 ```
 
-API respond:
+#### API respond:
 
 ```
 {"url":"https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/Avatar_2_logo.jpg/220px-Avatar_2_logo.jpg","username":"theapptokens"}
