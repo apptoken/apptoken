@@ -5,14 +5,14 @@ For streaming data:
 * Use zeromq: http://zeromq.org/
 * tcp://api.apptoken.co:5556
 
-Test
-API call:
+### Test
+#### API call:
 
 ```
 /
 ```
 
-API respond:
+#### API respond:
 
 ```
 Welcome to the Apptoken API!
@@ -113,7 +113,9 @@ Welcome to the Apptoken API!
 [{"author":"seyertam1234",
 "content":"Yep, very true!",
 "num_replies":0,
-"reply_to":"babd309692125d4222fe3b781a824e2ba4d5dd77abd6c7791ce6bcce86da3744","seq":467013642,"timestamp":"2018-09-25T02:09:36.5",
+"reply_to":"babd309692125d4222fe3b781a824e2ba4d5dd77abd6c7791ce6bcce86da3744",
+"seq":467013642,
+"timestamp":"2018-09-25T02:09:36.5",
 "tips":0,
 "transaction_id":"8f0714389588c1e5309718c8350b8eff25068d9f9e0daac0d2255c9eba8d24e2"},
 {"author":"masteryoshil",
@@ -150,7 +152,8 @@ Welcome to the Apptoken API!
 "tips":40000,
 "transaction_id":"2b0d7e4bbcee4133372cd8c46ce2027429f8a2c93235c133112b90725e0d295e"},
 {"author":"seyertam1234",
-"content":"Hey hey hey","num_replies":4,
+"content":"Hey hey hey",
+"num_replies":4,
 "reply_to":null,
 "seq":442342439,
 "timestamp":"2018-09-20T02:31:23.5",
@@ -170,7 +173,8 @@ Welcome to the Apptoken API!
 #### API respond:
 
 ```
-{"url":"https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/Avatar_2_logo.jpg/220px-Avatar_2_logo.jpg","username":"theapptokens"}
+{"url":"https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/Avatar_2_logo.jpg/220px-Avatar_2_logo.jpg",
+"username":"theapptokens"}
 ```
 
 
