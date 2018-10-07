@@ -1,5 +1,3 @@
-### AppToken
-
 API Call:
 * https://api.apptoken.co
 
@@ -78,9 +76,9 @@ API respond:
 #### Specific Stamp
 API call:
 
+```
 /stamps/<stamp_id>
 
-```
 /stamps/babd309692125d4222fe3b781a824e2ba4d5dd77abd6c7791ce6bcce86da3744
 ```
 
@@ -99,9 +97,9 @@ API respond:
 #### All Replies for a Stamp
 API call:
 
+```
 /stamps/<stamp_id>/replies
 
-```
 /stamps/babd309692125d4222fe3b781a824e2ba4d5dd77abd6c7791ce6bcce86da3744/replies
 ```
 
@@ -130,9 +128,9 @@ API respond:
 #### All Stamps for an Author
 API call:
 
+```
 /authors/<author>/stamps
 
-```
 /authors/seyertam1234/stamps
 ```
 
@@ -162,9 +160,9 @@ API respond:
 #### Avatar of an Author
 API call:
 
+```
 /authors/<author>/avatar
 
-```
 /authors/theapptokens/avatar
 ```
 
