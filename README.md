@@ -10,16 +10,22 @@ For streaming data:
 Test
 API call:
 
-```/```
+```
+/
+```
 
 API respond:
 
-```Welcome to the Apptoken API!```
+```
+Welcome to the Apptoken API!
+```
 
 #### All Stamps
 API call:
 
-```/stamps?page=1```
+```
+/stamps?page=1
+```
 
 API respond:
 
@@ -74,7 +80,9 @@ API call:
 
 /stamps/<stamp_id>
 
-```/stamps/babd309692125d4222fe3b781a824e2ba4d5dd77abd6c7791ce6bcce86da3744```
+```
+/stamps/babd309692125d4222fe3b781a824e2ba4d5dd77abd6c7791ce6bcce86da3744
+```
 
 API respond:
 
@@ -93,7 +101,9 @@ API call:
 
 /stamps/<stamp_id>/replies
 
-```/stamps/babd309692125d4222fe3b781a824e2ba4d5dd77abd6c7791ce6bcce86da3744/replies```
+```
+/stamps/babd309692125d4222fe3b781a824e2ba4d5dd77abd6c7791ce6bcce86da3744/replies
+```
 
 API respond:
 
@@ -122,7 +132,9 @@ API call:
 
 /authors/<author>/stamps
 
-```/authors/seyertam1234/stamps```
+```
+/authors/seyertam1234/stamps
+```
 
 API respond:
 
@@ -152,18 +164,15 @@ API call:
 
 /authors/<author>/avatar
 
-```/authors/theapptokens/avatar```
+```
+/authors/theapptokens/avatar
+```
 
 API respond:
 
-```{"url":"https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/Avatar_2_logo.jpg/220px-Avatar_2_logo.jpg","username":"theapptokens"}```
+```
+{"url":"https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/Avatar_2_logo.jpg/220px-Avatar_2_logo.jpg","username":"theapptokens"}
+```
 
-All Stamps for an Author
-API call:
-/authors/<author>/stamps
-
-Avatar of an Author
-API call:
-/authors/<author>/avatar
 
 
